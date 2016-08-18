@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF43E5F71D655642000D60AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF43E5F61D655642000D60AF /* AppDelegate.swift */; };
+		CF43E5F91D655642000D60AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF43E5F81D655642000D60AF /* ViewController.swift */; };
+		CF43E5FC1D655642000D60AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF43E5FA1D655642000D60AF /* Main.storyboard */; };
+		CF43E5FE1D655642000D60AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF43E5FD1D655642000D60AF /* Assets.xcassets */; };
+		CF43E6011D655642000D60AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF43E5FF1D655642000D60AF /* LaunchScreen.storyboard */; };
+		CF43E60C1D655642000D60AF /* FlashlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF43E60B1D655642000D60AF /* FlashlightTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF43E6081D655642000D60AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF43E5EB1D655642000D60AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF43E5F21D655642000D60AF;
+			remoteInfo = Flashlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF43E5F31D655642000D60AF /* Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF43E5F61D655642000D60AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF43E5F81D655642000D60AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF43E5FB1D655642000D60AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF43E5FD1D655642000D60AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF43E6001D655642000D60AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF43E6021D655642000D60AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF43E6071D655642000D60AF /* FlashlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF43E60B1D655642000D60AF /* FlashlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightTests.swift; sourceTree = "<group>"; };
+		CF43E60D1D655642000D60AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF43E5F01D655642000D60AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43E6041D655642000D60AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF43E5EA1D655642000D60AF = {
+			isa = PBXGroup;
+			children = (
+				CF43E5F51D655642000D60AF /* Flashlight */,
+				CF43E60A1D655642000D60AF /* FlashlightTests */,
+				CF43E5F41D655642000D60AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF43E5F41D655642000D60AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF43E5F31D655642000D60AF /* Flashlight.app */,
+				CF43E6071D655642000D60AF /* FlashlightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF43E5F51D655642000D60AF /* Flashlight */ = {
+			isa = PBXGroup;
+			children = (
+				CF43E5F61D655642000D60AF /* AppDelegate.swift */,
+				CF43E5F81D655642000D60AF /* ViewController.swift */,
+				CF43E5FA1D655642000D60AF /* Main.storyboard */,
+				CF43E5FD1D655642000D60AF /* Assets.xcassets */,
+				CF43E5FF1D655642000D60AF /* LaunchScreen.storyboard */,
+				CF43E6021D655642000D60AF /* Info.plist */,
+			);
+			path = Flashlight;
+			sourceTree = "<group>";
+		};
+		CF43E60A1D655642000D60AF /* FlashlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF43E60B1D655642000D60AF /* FlashlightTests.swift */,
+				CF43E60D1D655642000D60AF /* Info.plist */,
+			);
+			path = FlashlightTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF43E5F21D655642000D60AF /* Flashlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF43E6101D655642000D60AF /* Build configuration list for PBXNativeTarget "Flashlight" */;
+			buildPhases = (
+				CF43E5EF1D655642000D60AF /* Sources */,
+				CF43E5F01D655642000D60AF /* Frameworks */,
+				CF43E5F11D655642000D60AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flashlight;
+			productName = Flashlight;
+			productReference = CF43E5F31D655642000D60AF /* Flashlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF43E6061D655642000D60AF /* FlashlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF43E6131D655642000D60AF /* Build configuration list for PBXNativeTarget "FlashlightTests" */;
+			buildPhases = (
+				CF43E6031D655642000D60AF /* Sources */,
+				CF43E6041D655642000D60AF /* Frameworks */,
+				CF43E6051D655642000D60AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF43E6091D655642000D60AF /* PBXTargetDependency */,
+			);
+			name = FlashlightTests;
+			productName = FlashlightTests;
+			productReference = CF43E6071D655642000D60AF /* FlashlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF43E5EB1D655642000D60AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wesley Austin";
+				TargetAttributes = {
+					CF43E5F21D655642000D60AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CF43E6061D655642000D60AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CF43E5F21D655642000D60AF;
+					};
+				};
+			};
+			buildConfigurationList = CF43E5EE1D655642000D60AF /* Build configuration list for PBXProject "Flashlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF43E5EA1D655642000D60AF;
+			productRefGroup = CF43E5F41D655642000D60AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF43E5F21D655642000D60AF /* Flashlight */,
+				CF43E6061D655642000D60AF /* FlashlightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF43E5F11D655642000D60AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43E6011D655642000D60AF /* LaunchScreen.storyboard in Resources */,
+				CF43E5FE1D655642000D60AF /* Assets.xcassets in Resources */,
+				CF43E5FC1D655642000D60AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43E6051D655642000D60AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF43E5EF1D655642000D60AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43E5F91D655642000D60AF /* ViewController.swift in Sources */,
+				CF43E5F71D655642000D60AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF43E6031D655642000D60AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF43E60C1D655642000D60AF /* FlashlightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF43E6091D655642000D60AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF43E5F21D655642000D60AF /* Flashlight */;
+			targetProxy = CF43E6081D655642000D60AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF43E5FA1D655642000D60AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF43E5FB1D655642000D60AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF43E5FF1D655642000D60AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF43E6001D655642000D60AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF43E60E1D655642000D60AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF43E60F1D655642000D60AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF43E6111D655642000D60AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flashlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldwidemess.Flashlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF43E6121D655642000D60AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flashlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldwidemess.Flashlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF43E6141D655642000D60AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldwidemess.FlashlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight.app/Flashlight";
+			};
+			name = Debug;
+		};
+		CF43E6151D655642000D60AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldwidemess.FlashlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flashlight.app/Flashlight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF43E5EE1D655642000D60AF /* Build configuration list for PBXProject "Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43E60E1D655642000D60AF /* Debug */,
+				CF43E60F1D655642000D60AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF43E6101D655642000D60AF /* Build configuration list for PBXNativeTarget "Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43E6111D655642000D60AF /* Debug */,
+				CF43E6121D655642000D60AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF43E6131D655642000D60AF /* Build configuration list for PBXNativeTarget "FlashlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF43E6141D655642000D60AF /* Debug */,
+				CF43E6151D655642000D60AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF43E5EB1D655642000D60AF /* Project object */;
+}
