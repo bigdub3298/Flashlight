@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Flashlight" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,58 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nwo-BB-tqs">
+                                <rect key="frame" x="153" y="454" width="295" height="114"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="On" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoO-Ns-EyZ">
+                                        <rect key="frame" x="119" y="36" width="57" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="zoO-Ns-EyZ" firstAttribute="leading" secondItem="nwo-BB-tqs" secondAttribute="leading" constant="100" id="0Dh-sL-9ae"/>
+                                    <constraint firstAttribute="trailing" secondItem="zoO-Ns-EyZ" secondAttribute="trailing" constant="100" id="67b-Vy-3Xe"/>
+                                    <constraint firstItem="zoO-Ns-EyZ" firstAttribute="centerX" secondItem="nwo-BB-tqs" secondAttribute="centerX" id="ffO-Py-sKz"/>
+                                    <constraint firstAttribute="bottom" secondItem="zoO-Ns-EyZ" secondAttribute="bottom" constant="37" id="moL-ww-baa"/>
+                                    <constraint firstItem="zoO-Ns-EyZ" firstAttribute="top" secondItem="nwo-BB-tqs" secondAttribute="top" constant="36" id="tXZ-WK-elL"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="0Dh-sL-9ae"/>
+                                        <exclude reference="67b-Vy-3Xe"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ba9-Hd-Q4h" appends="YES" id="Kia-YN-FBf"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nwo-BB-tqs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6Lb-0o-jl3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nwo-BB-tqs" secondAttribute="bottom" constant="32" id="Nfi-0A-dju"/>
+                            <constraint firstItem="nwo-BB-tqs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ciF-y3-BhH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nwo-BB-tqs" secondAttribute="trailing" id="uoJ-G9-ram"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="onOffLabel" destination="zoO-Ns-EyZ" id="P2N-ko-zJL"/>
+                        <outlet property="toggleSwipeView" destination="nwo-BB-tqs" id="HDO-g0-jRh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="ba9-Hd-Q4h">
+                    <connections>
+                        <action selector="toggleSwipeRecognizer:" destination="BYZ-38-t0r" id="n4M-A0-4xn"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="305" y="369"/>
         </scene>
     </scenes>
 </document>
